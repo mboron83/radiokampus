@@ -14,7 +14,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mboron\\Radiokampus\\": "src/"
+            "Boron\\Kampus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Boron\\Kampus\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable"
