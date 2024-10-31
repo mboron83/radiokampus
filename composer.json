@@ -1,0 +1,21 @@
+{
+    "name": "mboron/radiokampus",
+    "description": "Radio Kampus Playlist Browser",
+    "type": "project",
+    "require": {
+        "php": "^8.3",
+        "symfony/console": "^7.1",
+        "ramsey/uuid": "^4.7",
+        "nesbot/carbon": "^3.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mboron\\Radiokampus\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
